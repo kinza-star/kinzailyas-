@@ -2,12 +2,12 @@ kind: Pod
 apiVersion: v1
 metadata: 
   labels:
-    rollNo: PIAIC78340
-    owner: Bilal
-  name: ai-flask
+    rollNo: PIAIC
+    owner: kinzailyas
+  name: flask-app
 spec: 
   containers:
   - name: assignment1
-    image: bilaldeveloper/kubernetes-assignment-1:latest
+    image: kinza-star / kinzailyas-flask-app:latest
     ports:
     - containerPort: 2020

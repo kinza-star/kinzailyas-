@@ -30,9 +30,9 @@ RUN cd ~ && \
     cd  dlib/ && \
     python3 setup.py install --yes USE_AVX_INSTRUCTIONS
 
-LABEL maintainer="bilalyar26@gmail.com"
-LABEL roll_no="PIAIC78340"
-ENV CREATEDBY="M. BILAL NAEEM"
+LABEL maintainer="kinzailyasit@gmail.com"
+LABEL roll_no="PIAIC"
+ENV CREATEDBY="kinzailyas"
 COPY . /app
 WORKDIR /app
 RUN  pip3 install flask &&  pip3 install face_recognition
